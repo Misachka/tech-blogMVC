@@ -35,11 +35,11 @@ https://mytechblog-app-2e8adc2daa49.herokuapp.com/
 
 ![Alt text](image.png)
 
+![Alt text](image-2.png)
 
+Comments:
 
-
-
-
+![Alt text](image-3.png)
 
 
 ## License
@@ -52,6 +52,8 @@ This application is covered by the MIT license.
 ## Contributing
 
 Used mini project as reference
+
+Used Tutors help with deployment
 
 
 
