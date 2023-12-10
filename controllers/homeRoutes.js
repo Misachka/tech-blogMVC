@@ -16,7 +16,7 @@ router.get('/', async (req, res) => {
 
     // Serialize data 
     const blogPosts = blogData.map((blog) => blog.get({ plain: true }));
-
+console.log(blogPosts);
     // Pass serialized data 
     res.render('homepage', {
       blogPosts,

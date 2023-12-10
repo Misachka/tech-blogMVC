@@ -14,7 +14,7 @@
 <!-- Display the author and creation date of the blog post -->
       <div class="col-4">
         <p class="blogCreate text-right">Created by
-          {{blogPost.user.username}}
+          {{blogPost.user.name}}
           on
           {{format_date blogPost.date_created}}
         </p>
@@ -56,7 +56,7 @@
 <div class="commentCont">
     <p class="text-center commentText">{{comment.comment_description}}</p>
     <p class="text-center commentOwner">
-        <span>~</span>Created by {{comment.user.username}} on {{format_date date_created}}<span>~</span>
+        <span>~</span>Created by {{comment.user.name}} on {{format_date date_created}}<span>~</span>
     </p>
     
 
